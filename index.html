@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>COFFE SHOP</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@4.0.0/fonts/remixicon.css" rel="stylesheet" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,300&family=Poppins:ital,wght@0,300;0,400;1,300&display=swap"
+    rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+  <div class="loader" id="loader">
+  </div>
+  <header class="header" id="header">
+
+    <a href="#" class="logo">
+      <img src="coffee-logo-png-7519.png" alt="">
+    </a>
+
+    <div class="nav-menu">
+      <nav class="navbar" id="navbar">
+        <a href="#home"> HOME</a>
+        <a href="#about"> ABOUT</a>
+        <a href="#menu"> MENU</a>
+        <a href="#product"> PRODUCT</a>
+        <a href="#review"> REVIEWS</a>
+        <a href="#contact">CONTACT </a>
+        <a href="#blog">BLOG </a>
+      </nav>
+      <div class="icon-container">
+        <div class="icons">
+          <i class="ri-menu-line" id="menu-btn" onclick="show()"></i>
+          <i class="ri-shopping-cart-2-fill" id="cart-btn"></i>
+          <!-- <i class="ri-search-line" id="search-bt"></i> -->
+        </div>
+        <div class="cart-item-container">
+          <div class="cart-item">
+            <span class="fas fa-times">
+
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <div class="home" id="home">
+    <img src="coffe.jpg" alt="">
+    <div class="content">
+      <h1>FRESH COFFEE IN THE MORNING </h1>
+      <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto libero dolores corrupti labore quidem
+        repudiandae!</P>
+      <button> <a href="#" class="btn"> ORDER NOW </a> </button>
+    </div>
+
+  </div>
+
+  <div class="section1">
+    <h1>
+      OUR SPECIAL COFFEE
+    </h1>
+  </div>
+  <div class="coffee-menu" id="menu">
+    <div class="coffee">
+      <img src="Amazon_com_ Coffee _ Percolators.jpeg" alt="">
+      <h1>FILTER COFFEE</h1>
+      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Porro et eaque labore?</p>
+      <span>RS. 399</span>
+      <button> ORDER NOW</button>
+    </div>
+    <div class="coffee">
+      <img src="Caramel Hazelnut Iced Coffee [10 Minutes] (1).jpeg" alt="">
+      <h1>ICED COFFEE</h1>
+      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Porro et eaque labore?</p>
+      <span>RS. 149</span>
+      <button> ORDER NOW</button>
+    </div>
+    <div class="coffee">
+      <img src="download.jpeg" alt="">
+      <h1>LUNGO COFFEE </h1>
+      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Porro et eaque labore?</p>
+      <span>RS. 159</span>
+      <button> ORDER NOW</button>
+
+    </div>
+    <div class="coffee">
+      <img src="Dalgona Coffee.jpeg" alt="">
+      <h1>DALGONA COFFEE</h1>
+      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Porro et eaque labore?</p>
+      <span>RS. 299</span>
+      <button> ORDER NOW</button>
+    </div>
+  </div>
+
+  <div class="section2">
+    <h1>
+      OUR SPECIAL DESSERT
+    </h1>
+  </div>
+  <div class="coffee-menu2" id="menu">
+    <div class="coffee">
+      <img src="Australian Lamingtons.jpeg" alt="">
+      <h1>AUSTRALIAN LAMINGTONSE</h1>
+      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Porro et eaque labore?</p>
+      <span>RS. 399</span>
+      <button> ORDER NOW</button>
+    </div>
+    <div class="coffee">
+      <img src="Classic Cinnamon Sugar Churros Recipe _ The Feedfeed.jpeg" alt="">
+      <h1>CHURROS</h1>
+      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Porro et eaque labore?</p>
+      <span>RS. 149</span>
+      <button> ORDER NOW</button>
+    </div>
+    <div class="coffee">
+      <img src="Google Images.jpeg" alt="">
+      <h1>GULAB JAMUN</h1>
+      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Porro et eaque labore?</p>
+      <span>RS. 159</span>
+      <button> ORDER NOW</button>
+
+    </div>
+    <div class="coffee">
+      <img src="Tiramisu _ Minjina Kuhinjica.jpeg" alt="">
+      <h1>CHOCOLATE TIRAMISU</h1>
+      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Porro et eaque labore?</p>
+      <span>RS. 299</span>
+      <button> ORDER NOW</button>
+    </div>
+  </div>
+  <div class="product-name">
+    <h1>Check Out Our Best Coffee Betans</h1>
+    <br>
+    <button><a href="#">EXPLORE OUR PRODUCTS>></a></button>
+  </div>
+  <div class="container-testimonial" id="review">
+    <h3>
+      COME AND JOIN
+    </h3>
+    <h1>OUR HAPPY CUSTOMERS</h1>
+  </div>
+  <div class="testimonial">
+    <div class="testimonial-profile">
+      <div class="testimonial-rate">
+        <img src="testimonial 1.jpeg" alt=""><h6>James Adoms</h6>
+        <div class="start">
+          <span>★★★★★</span>
+        </div>        
+      </div>
+      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vitae id sapiente consequuntur, dolores perferendis iusto repudiandae provident maxime nulla amet explicabo velit itaque fuga consequatur aliquid architecto? Sit, ducimus corrupti?</p>
+    </div>
+    <div class="testimonial-profile">
+      <div class="testimonial-rate">
+        <img src="testimonial2.jpeg" alt=" JAME ADOMS"><h6>James Adoms</h6>
+        <div class="start">
+          <span>★★★★★</span>
+        </div>
+      </div>
+      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vitae id sapiente consequuntur, dolores perferendis iusto repudiandae provident maxime nulla amet explicabo velit itaque fuga consequatur aliquid architecto? Sit, ducimus corrupti?</p>
+    </div>
+    <div class="testimonial-profile">
+      <div class="testimonial-rate">
+        <img src="testimonial3.jpeg" alt=""><h6>James Adoms</h6>
+        <div class="start">
+          <span>★★★★★</span>
+        </div>
+      </div>
+      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vitae id sapiente consequuntur, dolores perferendis iusto repudiandae provident maxime nulla amet explicabo velit itaque fuga consequatur aliquid architecto? Sit, ducimus corrupti?</p>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>
